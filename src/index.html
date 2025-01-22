@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/main.scss" />
+		<title>Test Task</title>
+	</head>
+	<body>
+		<div class="container">
+			<form class="form">
+				<label>
+					Имя:
+					<input type="text" id="name" />
+				</label>
+				<label>
+					E-mail:
+					<input type="email" id="email" />
+				</label>
+				<label>
+					Телефон:
+					<input type="tel" id="phone" placeholder="+375 (__) ___-__-__" />
+				</label>
+				<label>
+					Сообщение:
+					<textarea id="message"></textarea>
+				</label>
+				<button type="submit">Отправить</button>
+			</form>
+		</div>
+
+		<button class="open-modal-btn">Модалка</button>
+
+		<div class="modal">
+			<div class="modal-overlay"></div>
+			<div class="modal-content">
+				<p>Здесь могла быть ваша реклама itprofit!</p>
+				<button class="close-modal-btn">x</button>
+			</div>
+		</div>
+	</body>
+</html>
